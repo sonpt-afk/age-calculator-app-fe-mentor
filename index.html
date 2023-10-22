@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+<div class="app">
+  <div class="app-time-row">
+  <div class="app-time-container">
+    <h1 class="app-time-period">Day</h1>
+    <input type="text" class="app-time-unit app-time-unit-day"  placeholder="DD"></input>
+    <span class="app-time-warning app-time-warning-day hide">This field is required.</span>
+  </div>
+  <div class="app-time-container">
+    <h1 class="app-time-period">Month</h1>
+    <input type="text" class="app-time-unit app-time-unit-month" placeholder="MM"></input>
+    <span class="app-time-warning app-time-warning-month hide">This field is required.</span>
+  
+  </div>
+  <div class="app-time-container">
+    <h1 class="app-time-period">Year</h1>
+    <input type="text" class="app-time-unit app-time-unit-year" placeholder="YY"></input>
+    <span class="app-time-warning app-time-warning-year hide">This field is required.</span>
+  
+  </div>
+</div>
+<div class="app-icon">
+  Submit
+</div>
+  
+<div class="app-result">
+  
+  <div class="app-result-field">
+    <span class="app-result-empty app-result-year">--</span>
+    <span class="app-result-unit">years</span>
+
+  </div>
+  <div class="app-result-field">
+    <span class="app-result-empty app-result-month">--</span>
+    <span class="app-result-unit">months</span>
+
+  </div>
+  <div class="app-result-field">
+    <span class="app-result-empty app-result-day">--</span>
+    <span class="app-result-unit">days</span>
+
+  </div>
+</div>
+</div>
+  
+  
+ 
+</body>
+<script src="index.js"></script>
+</html>
