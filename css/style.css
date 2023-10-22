@@ -32,7 +32,7 @@ body {
   background-color: var(--White);
   color: black;
   display: flex;
-  border-radius: 15px;
+  border-radius: 15px 15px 200px 15px;
   display: flex;
   flex-direction: column;
 }
@@ -84,7 +84,7 @@ body {
   right: 46px;
   width: 66px;
   height: 66px;
-  background-color: var(--Purple);
+  background-color: var(--Off-black);
   border-radius: 50%;
   text-align: center;
   line-height: 66px;
@@ -100,7 +100,7 @@ body {
   right: 46px;
   width: 66px;
   height: 66px;
-  background-color: var(--Off-black);
+  background-color: var(--Purple);
   border-radius: 50%;
   text-align: center;
   line-height: 66px;
